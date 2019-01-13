@@ -21,7 +21,7 @@ public class UncommonWords {
 
         Map<String, Integer> count = new HashMap();
         for (String word: A.split(" "))
-            count.put(word, count.getOrDefault(word, 0) + 1);
+            count.put(word, count.getOrDefault(word,0) + 1);
         for (String word: B.split(" "))
             count.put(word, count.getOrDefault(word, 0) + 1);
 
